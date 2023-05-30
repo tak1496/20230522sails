@@ -17,9 +17,10 @@ module.exports = {
 
 
   fn: async function () {
-
-    // Respond with view.
-    return {};
+    return {
+      title: '新しいアクション！',
+      message: 'これは新たに作成したアクションです。'
+    };
 
   }
 

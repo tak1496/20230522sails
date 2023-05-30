@@ -1,7 +1,16 @@
+<!--
 <div id="hello" v-cloak>
 
   <h1>TODO: Implement this page.</h1>
   <p>(See also <em>assets/styles/pages/hello.less</em>, <em>assets/js/pages/hello.page.js</em>, and <em>api/controllers/view-hello.js</em>.)</p>
 
 </div>
+-->
+<div id="hello" v-cloak>
+  <h1><%= title %></h1>
+  <p><%= message %></p>
+</div>
+<%- exposeLocalsToBrowser() %>
+<!--
 <%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>
+-->
